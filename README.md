@@ -2,6 +2,7 @@
 This container run [osrm-frontend](https://github.com/Project-OSRM/osrm-frontend) for [osrm-backend](https://github.com/Project-OSRM/osrm-backend) project.
 
 # Quick Start
+When you start the osrm-frontend you must specify the API host and port. How to do it is written below.
 
 ## Start OSRM API
 
