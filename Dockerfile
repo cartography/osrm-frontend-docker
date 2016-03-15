@@ -15,7 +15,7 @@ WORKDIR ${work_dir}
 
 # install OSRM-front
 RUN git clone https://github.com/Project-OSRM/osrm-frontend.git .
-COPY ./sorm_options.js ./src/leaflet_options.js
+COPY ./osrm_options.js ./src/leaflet_options.js
 
 RUN npm install
 RUN make
