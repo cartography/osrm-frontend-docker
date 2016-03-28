@@ -1,5 +1,5 @@
 FROM node
-MAINTAINER pipetc@gmail.com
+MAINTAINER Andrey Gitsenko <pipetc@gmail.com>
 
 RUN apt-get update && apt-get install -y \
   nginx \
